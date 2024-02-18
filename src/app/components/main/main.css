@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+  
+
+  }
+
+  .grid-item1 {
+    background-color: #fcf4ec ;
+    padding: 20px;
+    font-family: "Fredoka", sans-serif;
+    text-align: center;
+  } 
+  
+  .grid-item {
+    background-color: #e38069;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .titulo {
+    max-width: 380px;
+    margin: auto;
+    text-align: left; 
+    line-height: 45px;
+    color:  #b44d35;
+}
+
+p{
+    max-width: 380px;
+    color:  #b44d35;
+    margin: auto;
+    text-align: left; 
+    margin-top: 20px;
+}
+
+button{
+   background-color: #fcf4ec ;
+   padding: 10px 20px; 
+   border: 1px solid #b44d35;
+   color: #b44d35;
+   margin-top: 30px;   
+   cursor: pointer;
+}
+
+.imagem-bolsa{
+    width: 520px;
+    height: 500px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+button:hover{
+    background-color: #b44d35;
+    color: bisque;
+}
+
+  
