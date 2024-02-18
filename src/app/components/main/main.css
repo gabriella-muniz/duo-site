@@ -24,6 +24,7 @@
   .titulo {
     max-width: 380px;
     margin: auto;
+    margin-top: 40px;
     text-align: left; 
     line-height: 45px;
     color:  #b44d35;
@@ -51,11 +52,37 @@ button{
     height: 500px;
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
+    animation:
+    example 1.5s infinite;
+    margin-top: 30px;
 }
 
 button:hover{
     background-color: #b44d35;
     color: bisque;
 }
+
+@keyframes example {
+  50% {
+    transform: translateY(-5%);
+  }
+
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr; 
+  
+  }
+  .imagem-bolsa{
+    width: 320px;
+    height: 350px;
+    margin-top: 30px;
+  }
+
+}
+
+
 
   
